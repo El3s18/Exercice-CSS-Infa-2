@@ -1,0 +1,365 @@
+body{
+    color:black;
+    font-size: 1em;
+    font-family: 'Nunito', sans-serif; 
+
+}
+
+.logo{
+    height: 80px;
+    width: 100px;
+}
+#fond{
+    background: url(img/visuel-main.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+}
+header {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1.5rem;
+    padding-bottom: 0em;
+    
+
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 50%;
+}
+
+.menu ul li{
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+.texte{
+    font-family: 'Nunito', sans-serif;
+    margin-top: 10%;
+    margin-left: 7%;
+    font-weight: 700;
+    color: white;
+    width: 50%;
+    height: auto;
+    padding:0;
+}
+
+.texte h2{
+    padding-top: 5%;
+    font-size: 4em;
+    margin: 0;
+    padding: 0;
+}
+.texte p {
+    font-size: 1.2em;
+    height: auto;
+}
+
+.bouton{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 3em;
+    background-color: #f64b3a;
+    border-radius: 5em;
+
+}
+
+.bouton a {
+    color: white;
+    text-transform: uppercase;
+    text-shadow: white;
+    text-decoration:none ;
+    font-size: 18px;
+}
+
+#team{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-image: url(img/bg-pictos_1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    color: #ea4d3e;;
+}
+
+.chef{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.chef h2 {
+    font-size: 3em;
+    font-weight: 1400;
+    margin-bottom:0.2em;
+    
+}
+.chef p {
+    font-size: 1.1em;
+    width:50%;
+    text-align: center;
+}
+.perso{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    padding-top: 5.1em;
+    width: 100%;
+}
+.perso h3 {
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: 1000;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.perso p{
+    text-align: center;
+    padding-top: 0;
+    margin-top: 10px;
+    
+}
+.colonne{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+}
+.colonne2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+}
+.colonne3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+}
+.aiden {
+    background-image: url('img/photo-aiden.png');
+    width: 240px;
+    height: 240px;
+}
+
+.ethel {
+    background-image: url('img/photo-ethel.png');
+    width: 240px;
+    height: 240px;
+}
+.fanny {
+    background-image: url('img/photo-fannie.png');
+    width: 240px;
+    height: 240px;
+}
+
+#bonburger{
+    background-color: #ea4d3e;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+img{
+    margin-left: 10%;
+}
+
+.blockburger{
+    padding-left: 2.5em;
+    color: white;
+    margin-right: 10%;
+    padding-bottom: 10%;
+    padding-left: 15%;
+    
+}
+.blockburger h2 {
+    font-size: 3.8em;
+    text-transform: capitalize;
+
+}
+
+.blockburger p {
+    font-size: 100%;
+    width: 100%;
+}
+
+.bouton2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 3em;
+    background-color: white;
+    border-radius: 5em;
+}
+.bouton2 a {
+    color: #f64b3a;
+    text-transform: uppercase;
+    text-shadow: #f64b3a;
+    text-decoration:none ;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+footer{
+    width: 100%;
+    height: 800px;
+    background-color: #222222;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.bloctxt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    height: auto;
+    width: 100%;
+}
+footer h3{
+    text-transform: capitalize;
+}
+
+
+#title{
+    width: 30%;
+    padding-right: 20%;
+}
+.RS{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 10%;
+}
+
+.insta{
+    background-image: url("img/picto-insta.png");
+    width: 42px;
+    height: 42px;
+}
+.fb{
+    background-image: url("img/picto-facebook.png");
+    width: 42px;
+    height: 42px;
+}
+.twit{
+    background-image: url("img/picto-twitter.png");
+    width: 42px;
+    height: 42px;
+}
+.whats{
+    background-image: url("img/picto-whatsapp.png");
+    width: 42px;
+    height: 42px;
+}
+
+
+#list_foot{
+    text-transform: capitalize;
+    list-style-type: none;
+    padding: 0;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+#about{
+    display: block;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 380px)
+{
+    .texte h2{
+        font-size: 3em;
+
+    }
+    .menu{
+        align-content: center;
+    }
+    header {
+        flex-direction: column;
+
+    }
+    #team{
+        height: auto;
+    }
+
+    .perso{
+        flex-direction: column;
+    }
+    .blockarticle{
+        flex-direction: column;
+    }
+    .blockburger h2{
+        margin: 0;
+    }
+    #bonburger{
+        flex-direction: column;
+    }
+    img{
+        width: 85%;
+        padding-left: 20%%;
+    }
+    .bouton a{
+        text-align: center;
+    }
+    footer{
+        width: auto;
+        height: auto;
+    }
+    .bloctxt{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+    #title{
+        width: 45%;
+        padding: 0%;
+    }
+    .RS{
+        flex-direction: row;
+        width: auto;
+    }
+    #about{
+        display:flex;
+        flex-direction: column;
+        width: 45%;
+    }
+
+}
+
